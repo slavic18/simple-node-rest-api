@@ -1,0 +1,33 @@
+.navbar-nav img {
+  width: 22px;
+  margin-top: -3px;
+  margin-left: 2px; }
+
+.user-box {
+  margin-bottom: 9px;
+  padding: 10px;
+  border-bottom: 1px solid #d7d7d7;
+  clear: both; }
+  .user-box:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .user-box .content {
+    width: 60%;
+    float: left; }
+    .user-box .content > div {
+      display: block;
+      float: left;
+      width: 33%;
+      padding-left: 8px;
+      text-align: center;
+      padding-right: 5px;
+      word-wrap: break-word; }
+  .user-box .user-box-actions {
+    width: 40%;
+    float: left;
+    text-align: right; }
+  .user-box button {
+    margin-left: 8px; }
+
+/*# sourceMappingURL=styles.css.map */

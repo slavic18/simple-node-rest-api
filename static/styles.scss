@@ -1,0 +1,41 @@
+.navbar-nav {
+  img {
+    width: 22px;
+    margin-top: -3px;
+    margin-left: 2px;
+  }
+}
+
+.user-box {
+  margin-bottom: 9px;
+  padding: 10px;
+  border-bottom: 1px solid #d7d7d7;
+  clear: both;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .content {
+    width: 60%;
+    float: left;
+    > div {
+      display: block;
+      float: left;
+      width: 33%;
+      //border-right: 1px solid #818181;
+      padding-left: 8px;
+      text-align: center;
+      padding-right: 5px;
+      word-wrap: break-word;
+    }
+  }
+  .user-box-actions {
+    width: 40%;
+    float: left;
+    text-align: right;
+  }
+  button {
+    margin-left: 8px;
+  }
+}

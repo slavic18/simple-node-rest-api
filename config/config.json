@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "password",
+    "database": "test_rest_api",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "base_api_url":"http://localhost:9999/api/users",
+  "start_user_amount": 1000
+}
